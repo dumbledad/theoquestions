@@ -1,0 +1,29 @@
+Practise questions about strings in Python
+
+
+Question 1
+
+What are the last two characters in this string 'some rambling text\r\n'? What do they do?
+
+
+Question 2
+
+name = "Tim Regan"
+
+We can treat a string as a list of characters. What would you expect each of the following to print?
+
+print(name[4])
+print(len(name))
+print(max(name))
+print(min(name))
+
+Write a simple program to check your answers
+
+
+Question 3
+
+string1 = "fabulous"
+string2 = " fabulous"
+string3 = "Fabulous"
+
+Which string functions might we apply to make all three strings identical?

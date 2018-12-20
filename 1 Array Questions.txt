@@ -1,0 +1,56 @@
+Practise questions about arrays in Python
+
+
+Question 1
+
+Write a simple program to manipulate lists. Start the program with two lists:
+
+lows = [3, 5, 7, 9]
+highs = [11, 13, 15, 17, 19]
+
+Have your program do the following tasks (note that there is a simple list function that will help you do each one)
+1 Print out the length of each list
+2 Append the value 21 to highs
+3 Reverse the order of highs
+4 Extend lows with highs and print the result to check it worked
+5 Check if 25 is in the extended list and print yes or no depending on the answer
+6 Sort the list and print it again to check that it worked
+
+
+Question 2
+
+numbers = ['100', '200', '50', '8']
+
+Using the built-in max function find the maximum value in numbers. Decide what you think it will be and then test your result. 
+
+
+Question 3
+
+crazy = ['chickens', 'Donald Trump', 43]
+
+These are Python's list functions, which do you expect to work on crazy? Check you are correct by writing some code
+
+append
+clear
+copy
+count
+extend
+index
+insert
+pop
+remove
+reverse
+sort
+
+
+N.B. len and max are built into Python and so are called by passing them the list, e.g. len(stuff) but the functions above are list functions that are called on a list, e.g. stuff.clear()
+
+
+Question 4
+
+There are two syntax errors in the program in fibonacci.py. Can you find them and fix them?
+
+
+
+
+

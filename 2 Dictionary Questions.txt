@@ -1,0 +1,28 @@
+Practise questions about dictionaries in Python
+
+
+Question 1
+
+How do you write an empty dictionary in Python?
+
+
+Question 2
+
+Write a line of Python that makes a new dictionary with two entries. Don't read the rest of the questions until you have tried.
+
+
+(Do not sneak a peek)
+
+
+Question 3
+
+holdroyds = {'mum':'Elin', 'dad':'George', 'son':'Theo'}
+
+1 Which is the correct way to get your mum's name: 
+holdroyds[mum] or
+holdroyds['mum']
+
+2 If you changed your name to Mordecai how would you update the dictionary to reflect that change?
+
+
+

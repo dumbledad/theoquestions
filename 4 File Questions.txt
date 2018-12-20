@@ -1,0 +1,41 @@
+Practise questions about opening files in Python
+
+
+Question 1
+
+What is the syntax for opening a file and then reading it, printing it out line by line? The answer is further down but try to remember first.
+
+
+
+
+
+
+(No cheating)
+
+
+
+
+
+
+
+fin = open('filename')
+for line in fin:
+	print(line)
+
+
+Question 2
+
+(This one's hard. I nicked it from Allen Downey's book Think Python.)
+
+The file words.txt contains a list of all the words allowed in scrabble. 
+
+1 Write a Python script to load in the file and print all the words with more than 20 characters. Don't forget to strip away the newline and carriage return characters from the end of each line.
+
+2 Write a Python script to load in the file and print words where a double letter is immediately followed by a double letter.
+
+3 Write a Python script to load in the file and print words where a double letter is immediately followed by a double letter and then immediately followed by another double letter.
+
+
+Question 3
+
+The file common.txt contains the 3,000 most commonly used English words. Rewrite your hangman code to randomly choose a word from the file. It is probably wise to filter out the short words.
