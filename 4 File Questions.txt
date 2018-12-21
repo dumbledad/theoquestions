@@ -17,6 +17,7 @@ What is the syntax for opening a file and then reading it, printing it out line 
 
 
 
+Here's one way of doing it:
 
 fin = open('filename')
 for line in fin:
@@ -24,6 +25,40 @@ for line in fin:
 
 
 Question 2
+
+What is the python syntax for opening a file and writing a line of text into it? The answer is further down but try to remember first.
+
+
+
+
+
+
+(No cheating)
+
+
+
+
+
+
+Here's one way of doing it:
+
+fout = open("demofile.txt", 'w')
+fout.write("Hallo file!")
+
+
+Question 3
+
+In the previous example what did the 'w' argument we passed to the function 'open' mean? What would be different if we had used 'a' instead?
+
+
+Question 4
+
+writers = ['Dickens', 'Elliot', 'Hardy', 'Austen']
+
+Write a simple Python program that saves this list to a file called writers.txt with one item per line.
+
+
+Question 4
 
 (This one's hard. I nicked it from Allen Downey's book Think Python.)
 
@@ -36,6 +71,6 @@ The file words.txt contains a list of all the words allowed in scrabble.
 3 Write a Python script to load in the file and print words where a double letter is immediately followed by a double letter and then immediately followed by another double letter.
 
 
-Question 3
+Question 5
 
 The file common.txt contains the 3,000 most commonly used English words. Rewrite your hangman code to randomly choose a word from the file. It is probably wise to filter out the short words.
